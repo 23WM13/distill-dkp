@@ -48,6 +48,17 @@ element {
   margin: 0 10px;
 }
 
+.pub-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  transition: transform 0.15s;
+}
+
+.pub-logo:hover {
+  transform: scale(1.12);
+}
+
 .container {
   max-width: 800px;
   margin: 20px auto;
