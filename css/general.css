@@ -48,6 +48,12 @@ element {
   margin: 0 10px;
 }
 
+.pub-links {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
 .pub-logo {
   width: 28px;
   height: 28px;
